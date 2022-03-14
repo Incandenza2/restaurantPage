@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background: linear-gradient(rgba(61, 114, 163, 0.397), rgba(155, 136, 136, 0.438)), url(./../img/vertical_cloth.png);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    width: auto;
+    min-height: 100vh;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 800px;
+    height: 150px;
+    margin-bottom: -3px;
+}
+
+.restaurantName {
+    width:max-content;
+    height: auto;
+    padding: 5px;
+    font-size: 50px;
+    color: rgb(184, 204, 201);
+    text-shadow: 3px 3px black;
+}
+
+.tabs {
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.homeTab, .menuTab, .contactTab {
+    height:fit-content;
+    width:fit-content;
+    border-style: double;
+    border-color: rgb(0, 0, 0); 
+    border-bottom-style: none;
+    padding: 5px;   
+}
+
+.selected {
+    border-bottom-style: solid;
+    border-bottom-color:rgba(114, 153, 153, 0.959);
+    background-color: rgba(114, 153, 153, 0.959);
+    z-index: 2;
+}
+
+.main {
+    display:flex;
+    background:linear-gradient(rgba(114, 153, 153, 0.959), rgba(114, 153, 153, 0.233));
+    border-style:double;
+    border-color: rgb(0, 0, 0);
+    padding: 50px 0px;
+    width: 794px;
+    height: fit-content;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.homeMessage, .menuMessage, .contactMessage {
+    margin: 0px 32px;
+    text-align: justify;
+}
+
+

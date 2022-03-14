@@ -1,0 +1,25 @@
+{
+  "name": "restaurantpage",
+  "version": "1.0.0",
+  "description": "restaurant page exercise for the odin project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Incandenza2/restaurantPage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Incandenza2/restaurantPage/issues"
+  },
+  "homepage": "https://github.com/Incandenza2/restaurantPage#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
