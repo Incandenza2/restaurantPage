@@ -24,7 +24,8 @@ body {
 .restaurantName {
     width:max-content;
     height: auto;
-    padding: 5px;
+    z-index: 2;
+    margin-bottom: -6px;
     font-size: 50px;
     color: rgb(184, 204, 201);
     text-shadow: 3px 3px black;
