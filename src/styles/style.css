@@ -17,7 +17,7 @@ body {
     justify-content: space-between;
     align-items: end;
     width: 800px;
-    height: 150px;
+    height: 120px;
     margin-bottom: -3px;
 }
 
@@ -65,9 +65,10 @@ body {
     flex-direction: column;
     justify-content: baseline;
     align-items: center;
+    margin-bottom: 10px;
 }
 
-.dishDiv {
+.dishDiv, .buildingDiv {
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -76,12 +77,12 @@ body {
     gap: 3px;
 }
 
-.dishName {
+.dishName, .buildingName {
     text-decoration: underline;
 }
 
-.dishImage {
-    max-width: 600px;
+.dishImage, .buildingImage {
+    max-width: 500px;
     height: auto;
 }
 

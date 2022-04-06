@@ -49,9 +49,18 @@ const homeModule = (function() {
     const showHome = () => {
         let main = document.querySelector(".main");
         main.replaceChildren("");
-        let homeMessage = dom.addElement("div", ".main", "homeMessage")
+        let homeMessage = dom.addElement("div", ".main", "homeMessage");
         homeMessage.textContent = "Welcome to Moby Chic, where you will be eating as whale as you *don't* feel right now reading this sentence. " + 
          "Seriously though, check our menu tab and be amazed at the delicious offerings within.";
+        let buildingDiv = dom.addElement("div", ".main", "buildingDiv");
+        let buildingName = document.createElement("p");
+        buildingName.classList.add("buildingName");
+        buildingName.textContent = "Our humble establishment:"
+        let buildingImage = document.createElement("img");
+        buildingImage.classList.add("buildingImage");
+        buildingImage.setAttribute("src", "./../src/img/mobyChic.png")
+        buildingDiv.appendChild(buildingName);
+        buildingDiv.appendChild(buildingImage);
     };
     return {showHome};
 })();
