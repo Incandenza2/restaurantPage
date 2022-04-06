@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Incandenza2/restaurantPage#readme",
   "devDependencies": {
     "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.69.1",
     "webpack-cli": "^4.9.2"

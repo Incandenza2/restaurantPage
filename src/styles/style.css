@@ -62,13 +62,36 @@ body {
     padding: 50px 0px;
     width: 794px;
     height: fit-content;
-    justify-content: center;
-    align-items: baseline;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
 }
+
+.dishDiv {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    gap: 3px;
+}
+
+.dishName {
+    text-decoration: underline;
+}
+
+.dishImage {
+    max-width: 600px;
+    height: auto;
+}
+
+
+
 
 .homeMessage, .menuMessage, .contactMessage {
     margin: 0px 32px;
     text-align: justify;
 }
+
 
 
