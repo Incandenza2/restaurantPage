@@ -58,7 +58,7 @@ const homeModule = (function() {
         buildingName.textContent = "Our humble establishment:"
         let buildingImage = document.createElement("img");
         buildingImage.classList.add("buildingImage");
-        buildingImage.setAttribute("src", "./../src/img/mobyChic.png")
+        buildingImage.setAttribute("src", "./mobyChic.png")
         buildingDiv.appendChild(buildingName);
         buildingDiv.appendChild(buildingImage);
     };
@@ -72,15 +72,15 @@ const menuModule = (function () {
     };
     let roastedPigeons = Object.create(dishFactory, {
         "name": {value: "Delicious Roasted Pigeons"},
-        "image": {value: "../src//img/roastedPigeon.jpg"}
+        "image": {value: "./roastedPigeon.jpg"}
     });
     let pigeonPie = Object.create(dishFactory, {
         "name": {value: "Exquisite Pigeon Pie"},
-        "image": {value: "../src//img/pigeonPie.png"}
+        "image": {value: "./pigeonPie.png"}
     });
     let pigeonAuPain = Object.create(dishFactory, {
         "name": {value: "Mysterious Pigeon Au Pain d'Épices"},
-        "image": {value: "../src/img/pigeonAuPain.png"}
+        "image": {value: "./pigeonAuPain.png"}
     });
 
     let dishes = [roastedPigeons, pigeonPie, pigeonAuPain];
